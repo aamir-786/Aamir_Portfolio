@@ -170,6 +170,13 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  position:relative;
+}
+.section__pic-container img {
+  position:absolute;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
 }
 
 .section__text { color:navy; font-style: initial;
@@ -426,8 +433,6 @@ footer {
 }
 
 footer p {
-  color:white;
-
   text-align: center;
 }
 .social-icons {
